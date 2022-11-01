@@ -6,8 +6,8 @@ HOW TO REQUEST DATA
 Request data by accessing the file "calculate_goals.txt" and writing to the file "run" followed by the user's maintenance calories and the user's goal calories. It should follow the format:
 
 run
-<user maintenance calories>
-<user goal calories>
+user maintenance calories
+user goal calories
 
 and there should be no blank line before "run." An example call is:
 
@@ -21,9 +21,9 @@ HOW TO RECEIVE DATA
 
 The microservice will write the protein, fat, and carb goals to the file in the following format:
 
-<protein goal>
-<fat goal>
-<carbs goal>
+protein goal
+fat goal
+carbs goal
 
 with no blank line at the beginning of the file. An example of the returning state is:
 

@@ -3,7 +3,7 @@
 
 HOW TO REQUEST DATA
 
-Request data by accessing the file "calculate_goals.txt" and writing to the file "run" followed by the user's maintenance calories and the user's goal calories. It should follow the format:
+<p>Request data by accessing the file "calculate_goals.txt" and writing to the file "run" followed by the user's maintenance calories and the user's goal calories. It should follow the format: <\p>
 
 run
 user maintenance calories

@@ -10,6 +10,8 @@ while (True):
 
     if (contents == "run\n"):
 
+        print("Received request...\n\n")
+
         user_maintenance = int(f.readline())
         user_goal = int(f.readline())
 
@@ -19,6 +21,8 @@ while (True):
         fat_goal = (0.3 * user_goal) / 9
         carbs_goal = (0.5 * user_goal) / 4
 
+
+        print("Writing return data to file.")
 
         f = open("calculate_goals.txt", "w")
         f.write(str(protein_goal) + "\n" + str(fat_goal) + "\n" + str(carbs_goal) + "\n")

@@ -1,6 +1,14 @@
 # cs361-microservice
 
 
+TO RUN MICROSERVICE
+
+Type the following into the terminal where the code file is located:
+python3 calculate_goals.py
+
+To stop the microservice, type control c.
+
+
 HOW TO REQUEST DATA
 
 Request data by accessing the file "calculate_goals.txt" and writing to the file "run" followed by the user's maintenance calories and the user's goal calories. It should follow the format:
